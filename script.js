@@ -40,7 +40,7 @@ sizeButton.addEventListener('click', () => {
         } 
         else {
                 alert("Invalid input. Please enter a number that is less than 100");
-                return;
+                createGrid(16);
         }        
 })
 
