@@ -1,5 +1,6 @@
 body {
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
@@ -9,6 +10,11 @@ body {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: 20px;
 }
+
+ .header {
+   font-size: 50px;
+   color: maroon;
+ }
 
  #container {
     display: grid;
